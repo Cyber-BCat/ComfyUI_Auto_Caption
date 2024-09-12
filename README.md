@@ -8,26 +8,26 @@
 
   (1).https://huggingface.co/google/siglip-so400m-patch14-384 放到clip/siglip-so400m-patch14-384
 
-![1](![alt text](image-2.png))
+![1](!https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/path-1.png)
 
 
-  (2).推荐下载 https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit  （如果你有A100 可以考虑下载meta-llama/Meta-Llama-3.1-8B）放到LLM/Meta-Llama-3.1-8B-bnb-4bit
+  (2).必须手动下载:https://huggingface.co/spaces/fancyfeast/joy-caption-pre-alpha/tree/main/wpkklhc6   放到Auto_Caption 下
+
+ ![2](!workflow/path-autocaption.png)
+ 
+
+  (3).推荐下载 https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit  （如果你有A100 可以考虑下载meta-llama/Meta-Llama-3.1-8B）放到LLM/Meta-Llama-3.1-8B-bnb-4bit
   
-![2](![alt text](image-1.png))
-
-
-  (3).必须手动下载:https://huggingface.co/spaces/fancyfeast/joy-caption-pre-alpha/tree/main/wpkklhc6   放到Auto_Caption 下
-
- ![3](![alt text](image.png))
+![3](![.\workflow\path-llm.png])
 
 
 基于反推:
 
-![反推](.\workflow\Tag result.png)
+![反推]([.\workflow\Tag result.png](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/Tag%20result.png))
 
 flux运行效果:
 
-![flux](.\workflow\show flux example.png)
+![flux]([.\workflow\show flux example.png](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/show%20flux%20example.png))
 
 
 
