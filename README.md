@@ -44,5 +44,9 @@ flux dev运行效果 result runs by flux dev:
 
 ![autoaption](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/Tag%20result.png)
 
+示例工作流 workflow example:
+
+   https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/autocaption%20exampleworkflow.json
+
 
 
