@@ -1,8 +1,19 @@
 This report contains a "load many images" node which is going to load the image set by the number of file names from smallest to largest, and the images will no longer be loaded in the wrong order! Setting index=0 makes it load from the first small value (image flie name) image, and index=2 will load them from the second image.
 Another node "load images & resize" can resize the image by the first loaded image.
 
-Notice：
-注意：
+flux dev运行效果 result runs by flux dev:
+
+![flux](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/show%20flux%20example.png)
+
+反推结果截图 caption result screenshot:
+
+![caption](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/caption.jpg) ![autoaption](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/Tag%20result.png)
+
+示例工作流下载 workflow example download:   https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/autocaption%20exampleworkflow.json
+
+   
+Notice：Follow these three steps to get started
+注意：完成下列三个步骤即可使用
 
 1.安装依赖requirements.txt(注意：transformers 版本不能太低, windows使用则需要安装windows 版本的相关依赖)
 
@@ -35,18 +46,10 @@ Notice：
 
 
 
-flux dev运行效果 result runs by flux dev:
-
-![flux](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/show%20flux%20example.png)
 
 
-反推结果 caption result:
 
-![autoaption](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/Tag%20result.png)
 
-示例工作流 workflow example:
-
-   https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/autocaption%20exampleworkflow.json
 
 
 
