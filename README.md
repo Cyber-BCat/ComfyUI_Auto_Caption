@@ -7,7 +7,7 @@ flux dev运行效果 result runs by flux dev:
 
 反推结果截图 caption result screenshot:
 
-![caption](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/caption.jpg) ![autoaption](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/Tag%20result.png)
+![caption](https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/caption.jpg) 
 
 示例工作流下载 workflow example download:   https://github.com/Cyber-BCat/ComfyUI_Auto_Caption/blob/main/workflow/autocaption%20exampleworkflow.json
 
