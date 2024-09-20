@@ -61,7 +61,7 @@ class Joy_Model_load:
             }
         }
 
-    CATEGORY = "AutoCaption"
+    CATEGORY = "Auto Caption"
     RETURN_TYPES = ("JoyModel",)
     FUNCTION = "gen"
 
@@ -137,7 +137,7 @@ class Auto_Caption:
             }
         }
 
-    CATEGORY = "AutoCaption"
+    CATEGORY = "Auto Caption"
     RETURN_TYPES = ("STRING",)
     FUNCTION = "gen"
     def gen(self,JoyModel,image,prompt,max_new_tokens,temperature,cache): 
@@ -219,7 +219,7 @@ class LoadImagesRezise:
     RETURN_NAMES = ("image", "mask", "count", "image_path",)
     FUNCTION = "load_images"
 
-    CATEGORY = "AutoCaption"
+    CATEGORY = "Auto Caption"
 
     def load_images(self, folder, image_load_cap, start_index):
         if not os.path.isdir(folder):
@@ -330,7 +330,7 @@ class LoadManyImages:
 
     FUNCTION = "load_images"
 
-    CATEGORY = "AutoCaption"
+    CATEGORY = "Auto Caption"
 
     def load_images(self, folder, image_load_cap, start_index):
         if not os.path.isdir(folder):
